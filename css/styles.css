@@ -494,7 +494,7 @@ margin-bottom: 50px;
     cursor: pointer;
 
     transition-property: border, fill;
-    transition-duration: 250ms;
+    transition-duration: 25ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
