@@ -781,8 +781,6 @@ margin-bottom: 50px;
     border-bottom-right-radius: 3px;
 }
 
-/* --------------backdrop------------- */
-
 .backdrop {
     position: fixed;
     top: 0;
