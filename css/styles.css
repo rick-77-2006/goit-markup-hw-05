@@ -157,7 +157,7 @@ img {
   line-height: 1.1;
   color: var(--header-link-color);
   transition-property: color;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -202,7 +202,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   transition-property: color, fill;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -239,7 +239,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   transition-property: color, fill;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-tel:hover,
@@ -454,7 +454,7 @@ img {
   justify-content: center;
   align-items: center;
   transition-property: background-color, fill;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -495,7 +495,7 @@ img {
   align-items: center;
   cursor: pointer;
   transition-property: border, fill;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -562,7 +562,7 @@ img {
   font-style: normal;
 
   transition-property: color;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -577,7 +577,7 @@ img {
   color: var(--footer-text-color);
   font-style: normal;
   transition-property: color;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -591,7 +591,7 @@ img {
   color: var(--footer-text-color);
   font-style: normal;
   transition-property: color;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -730,7 +730,7 @@ img {
   cursor: pointer;
   background-color: var(--button-background-color);
   transition-property: color, background-color, box-shadow;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -762,7 +762,7 @@ img {
 .services-link {
   display: block;
   transition-property: box-shadow;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -816,7 +816,7 @@ img {
   color: var(--main-text-color);
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: auto;
 }
 
@@ -863,7 +863,7 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transition: transform 2500ms;
+  transition: transform 250ms;
   transform: translate(-50%, -50%) rotate(0);
 }
 
@@ -947,7 +947,7 @@ img {
   height: 12px;
   transform: translateY(-50%);
   fill: #212121;
-  transition: border-color 2500ms;
+  transition: border-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -960,7 +960,7 @@ img {
   cursor: pointer;
   resize: none;
   outline: none;
-  transition: border-color 2500ms;
+  transition: border-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
