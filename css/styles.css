@@ -1083,3 +1083,60 @@ img {
   display: flex;
   justify-content: center;
 }
+
+/* Особености компании */
+.features {
+  display: flex;
+  flex-direction: column;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: row;
+}
+.features-list-li {
+  display: block;
+}
+
+.features-list-li::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--section-background);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.features-list-li:not(:last-child) {
+  margin-right: 30px;
+}
+.features-item {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  letter-spacing: var(--main-letter-spacing);
+  margin-bottom: 10px;
+}
+
+.features-text {
+  line-height: 1.71;
+  color: var(--primary-text-color);
+  font-weight: 400;
+  letter-spacing: var(--main-letter-spacing);
+  font-size: 14px;
+}
+.antenna::before {
+  background-image: url(../img/antenna.svg);
+}
+.clock::before {
+  background-image: url(../img/clock.svg);
+}
+.diagram::before {
+  background-image: url(../img/diagram.svg);
+}
+.astronaut::before {
+  background-image: url(../img/astronaut.svg);
+}
