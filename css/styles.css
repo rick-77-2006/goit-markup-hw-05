@@ -1,3 +1,28 @@
+:root {
+  --title-text-color: #212121;
+  --header-link-color: #212121;
+  --button-services-color: #212121;
+  --secondary-text-color: #757575;
+  --main-text-color: #ffffff;
+  --main-background-color: #ffffff;
+  --footer-text: #ffffff;
+  --button-text-color: #ffffff;
+  --logo-studio-color: #000000;
+  --logo-studio-alt-color: #ffffff;
+  --hero-button-color: #ffffff;
+  --hero-button-color-alt: #000000;
+  --logo-web-color: #2196f3;
+  --link-color: #2196f3;
+  --main-button-color: #2196f3;
+  --bg-icon-color: #2196f3;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --hero-background-color: #2f303a;
+  --footer-background-color: #2f303a;
+  --button-background-color: #f5f4fa;
+  --team-background-color: #f5f4fa;
+  --list-right-margin: 30px;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -22,31 +47,6 @@ ul,
 ol {
   padding-left: 0;
   margin: 0;
-}
-
-:root {
-  --title-text-color: #212121;
-  --header-link-color: #212121;
-  --button-services-color: #212121;
-  --secondary-text-color: #757575;
-  --main-text-color: #ffffff;
-  --main-background-color: #ffffff;
-  --footer-text: #ffffff;
-  --button-text-color: #ffffff;
-  --logo-studio-color: #000000;
-  --logo-studio-alt-color: #ffffff;
-  --hero-button-color: #ffffff;
-  --hero-button-color-alt: #000000;
-  --logo-web-color: #2196f3;
-  --link-color: #2196f3;
-  --main-button-color: #2196f3;
-  --bg-icon-color: #2196f3;
-  --footer-text-color: rgba(255, 255, 255, 0.6);
-  --hero-background-color: #2f303a;
-  --footer-background-color: #2f303a;
-  --button-background-color: #f5f4fa;
-  --team-background-color: #f5f4fa;
-  --list-right-margin: 30px;
 }
 
 body {
@@ -97,7 +97,7 @@ img {
   padding-bottom: 94px;
 }
 
-/*-----------------header body-------*/
+/*Header*/
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -184,7 +184,7 @@ img {
   color: var(--link-color);
 }
 
-/*------header contacts-------*/
+/*Contacts*/
 
 .header-contact-list {
   display: flex;
@@ -258,7 +258,7 @@ img {
   fill: var(--link-color);
 }
 
-/*-------------main body hero line--------*/
+/*Hero*/
 .section-hero {
   background-color: var(--hero-background-color);
   text-align: center;
@@ -302,7 +302,7 @@ img {
   background-color: var(--main-button-color);
 }
 
-/*-------------main body advantages line--------*/
+/*Advanteges*/
 
 .adv-list {
   display: flex;
@@ -344,7 +344,7 @@ img {
   line-height: 1.7;
 }
 
-/* --------------main body works line------*/
+/*Works items*/
 
 .section-works {
   padding-top: 0px;
@@ -390,7 +390,7 @@ img {
   background: rgba(47, 48, 58, 0.8);
 }
 
-/* --------------main body team line------*/
+/*Team*/
 
 .section-team {
   background-color: var(--team-background-color);
@@ -487,7 +487,7 @@ img {
   fill: #ffffff;
 }
 
-/* -----------body-clients--------- */
+/*Clients*/
 
 .title-clients {
   font-weight: 700;
@@ -535,7 +535,7 @@ img {
   fill: #2196f3;
 }
 
-/*-------------footer----------*/
+/*Fomter*/
 .footer {
   background-color: var(--footer-background-color);
   padding-bottom: 60px;
@@ -622,7 +622,7 @@ img {
 .footer-tel:focus {
   color: var(--link-color);
 }
-/* -------footer join-us ---------*/
+/*Join us*/
 
 .join-us-title {
   font-weight: 700;
@@ -675,7 +675,7 @@ img {
   fill: #ffffff;
 }
 
-/*---------- footer-subscribe ---------*/
+/*Subscribe*/
 .subsсribe-footer {
   margin-left: auto;
 }
@@ -740,7 +740,7 @@ img {
   width: 24px;
   height: 24px;
 }
-/*-------------PORTFOLIO--------*/
+/*Portfolio*/
 
 .services {
   padding-top: 97px;
