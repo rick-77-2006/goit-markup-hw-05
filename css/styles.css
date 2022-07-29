@@ -207,7 +207,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 
-  transition-property: color, fill;
+  /* transition-property: color, fill; */
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -244,8 +245,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-
-  transition-property: color, fill;
+  /* transition-property: color, fill; */
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -582,7 +583,8 @@ img {
   color: var(--footer-text);
   font-style: normal;
 
-  transition-property: color;
+  /* transition-property: color; */
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -598,7 +600,8 @@ img {
   color: var(--footer-text-color);
   font-style: normal;
 
-  transition-property: color;
+  /* transition-property: color; */
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -613,7 +616,8 @@ img {
   color: var(--footer-text-color);
   font-style: normal;
 
-  transition-property: color;
+  /* transition-property: color; */
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
