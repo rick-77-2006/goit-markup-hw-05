@@ -489,7 +489,7 @@ img {
 
 .team-soc-icon {
   fill: #afb1b8;
-  transition: 250ms;
+  transition: fill 250ms;
 }
 
 .team-soc-link:hover {
@@ -511,17 +511,12 @@ img {
   margin-bottom: 50px;
 }
 
-.clients-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.clients-item {
+.clients-links {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  margin-right: 30px;
+  /* margin-right: 30px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -530,6 +525,28 @@ img {
   transition-property: border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clients-item {
+  /* width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px; */
+  margin-right: 30px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .clients-item:last-child {
@@ -541,6 +558,7 @@ img {
 }
 
 .clients-icon {
+  transition: fill 250ms;
   fill: #afb1b8;
 }
 
