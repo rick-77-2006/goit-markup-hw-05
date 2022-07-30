@@ -500,6 +500,22 @@ img {
 
 /*Clients*/
 
+.clients-links {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .title-clients {
   font-weight: 700;
   font-size: 36px;
@@ -516,7 +532,8 @@ img {
 
 .clients-item {
   width: 170px;
-  height: 92px;
+  margin-right: 30px;
+  /* height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   margin-right: 30px;
@@ -527,7 +544,7 @@ img {
 
   transition-property: border, fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .clients-item:last-child {
