@@ -288,7 +288,7 @@ img {
   color: var(--main-text-color);
 }
 
-.hero-button {
+/* .hero-button {
   border-radius: 4px;
   min-width: 200px;
   padding: 10px 32px;
@@ -301,6 +301,25 @@ img {
   color: var(--hero-button-color);
   cursor: pointer;
   background-color: var(--main-button-color);
+} */
+
+
+.hero-button {
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--hero-button-color);
+  background-color: var(--main-button-color);
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Advanteges*/
