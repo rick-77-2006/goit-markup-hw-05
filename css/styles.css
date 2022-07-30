@@ -21,6 +21,7 @@
   --button-background-color: #f5f4fa;
   --team-background-color: #f5f4fa;
   --list-right-margin: 30px;
+  --button-background-hover: #188ce8;
 }
 
 html {
@@ -303,6 +304,10 @@ img {
   background-color: var(--main-button-color);
 } */
 
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--button-background-hover);
+}
 
 .hero-button {
   display: inline-block;
