@@ -25,7 +25,7 @@
 }
 
 html {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 *,
@@ -289,6 +289,21 @@ img {
   color: var(--main-text-color);
 }
 
+/* .hero-button {
+  border-radius: 4px;
+  min-width: 200px;
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  border: none;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-button-color);
+  cursor: pointer;
+  background-color: var(--main-button-color);
+} */
+
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--button-background-hover);
@@ -487,7 +502,6 @@ img {
 
 .team-soc-icon {
   fill: #afb1b8;
-  transition: fill 250ms;
 }
 
 .team-soc-link:hover {
@@ -499,22 +513,6 @@ img {
 }
 
 /*Clients*/
-
-.clients-links {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  margin-right: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-
-  transition-property: border, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .title-clients {
   font-weight: 700;
