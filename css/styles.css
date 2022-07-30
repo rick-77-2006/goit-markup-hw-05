@@ -557,6 +557,7 @@ img {
 
 .clients-icon {
   fill: #afb1b8;
+  transition: fill 250ms;
 }
 
 .clients-item:hover .clients-icon {
