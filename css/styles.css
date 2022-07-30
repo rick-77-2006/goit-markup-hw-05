@@ -74,7 +74,7 @@ img {
   padding: 0;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
-  margin: -1p;
+  margin: -1px;
 }
 
 .link {
@@ -757,27 +757,23 @@ img {
 /*Portfolio*/
 
 .services {
-  padding-top: 97px;
-  padding-bottom: 104px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .services-button {
-  border: none;
-  border-radius: 4px;
-  padding: 5.94px 22px;
+  display: inline-block;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  color: var(--button-services-color);
+  line-height: 1.63;
   cursor: pointer;
-  background-color: var(--button-background-color);
-
-  transition-property: color, background-color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--hero-title-color);
+  background-color: var(--logo-color);
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px solid transparent;
+  margin-right: 8px;
 }
 
 .services-button:hover,
@@ -789,16 +785,15 @@ img {
 }
 
 .services-button-list {
+  display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .services-buttom-item {
   margin-right: 8px;
-  align-items: center;
-  border-color: none;
+  /* align-items: center;
+  border-color: none; */
 }
 
 .services-buttom-item:last-child {
