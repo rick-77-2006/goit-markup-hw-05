@@ -24,9 +24,9 @@
   --button-background-hover: #188ce8;
 }
 
-html {
-  /* box-sizing: border-box; */
-}
+/* html {
+  box-sizing: border-box;
+} */
 
 *,
 *::before,
@@ -807,8 +807,9 @@ img {
 /*-------------portfolio services------*/
 
 .services-link {
-  display: block;
-  transition-property: box-shadow;
+  display: inline-block;
+  text-decoration: none;
+  transition-property: transform, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -836,15 +837,22 @@ img {
 .services-pics-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
+  margin-left: -30px;
+  margin-bottom: -30px;
 }
 
 .services-pics-item {
   margin-right: 30px;
   margin-bottom: 30px;
+  background: var(--hero-title-color);
+  border: 1px solid #eeeeee;
 }
 
-.services-pics-item:hover .services-decor-text {
+/* .services-pics-item:hover .services-decor-text {
+  transform: translateY(0%);
+} */
+
+.services-link:hover .services-decor-text {
   transform: translateY(0%);
 }
 
