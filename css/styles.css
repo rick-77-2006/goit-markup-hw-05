@@ -24,24 +24,15 @@
   --button-background-hover: #188ce8;
 }
 
-body {
-  margin: 0;
-  font-family: "Roboto", Tahoma sans-serif;
-  color: var(--secondary-text-color);
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  background-color: var(--main-background-color);
+html {
+  /* box-sizing: border-box; */
 }
 
-/* html {
-  box-sizing: border-box;
-} */
-
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: inherit;
-} */
+}
 
 h1,
 h2,
@@ -59,7 +50,14 @@ ol {
   margin: 0;
 }
 
-
+body {
+  margin: 0;
+  font-family: "Roboto", Tahoma sans-serif;
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--main-background-color);
+}
 
 img {
   display: block;
