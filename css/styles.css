@@ -655,6 +655,8 @@ img {
     pointer-events: none;
 }
 
+
+/* Modal */
 .backdrop {
     position: fixed;
     top: 0;
@@ -692,3 +694,26 @@ img {
     background: var(--hero-title-color);
     fill: var(--main-color);
 }
+
+
+.input-form:focus + .modal-icon-person {
+    fill: #2196f3;
+  }
+
+  .modal-icon-person {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    transform: translateY(-50%);
+    fill: #212121;
+    transition: border-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .phone-icon {
+    fill: #757575;
+    margin-right: 10px;
+    height: 16px;
+  }
