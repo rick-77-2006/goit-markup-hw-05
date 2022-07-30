@@ -487,7 +487,7 @@ img {
 
 .team-soc-icon {
   fill: #afb1b8;
-  transition: 250ms;
+  transition: fill 250ms;
 }
 
 .team-soc-link:hover {
